@@ -17,16 +17,22 @@
 
 1. Clone the repository:
 
-    ```bash
-    git clone https://github.com/yourusername/findparent-cli.git
-    cd findparent-cli
-    ```
+```bash
+git clone https://github.com/yourusername/findparent-cli.git
+cd findparent-cli
+```
 
 2. Install the dependencies:
 
-    ```bash
-    npm install
-    ```
+```bash
+npm install
+```
+
+3. Build the project:
+
+```bash
+npm run build
+```
 
 ## Usage
 
