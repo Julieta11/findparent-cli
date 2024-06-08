@@ -1,0 +1,24 @@
+{
+  "name": "find-parent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "lint:fix": "eslint '**/*.{js,ts,tsx}' --quiet --fix",
+    "lint:check": "eslint '**/*.{js,ts,tsx}' --quiet"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@dcl/eslint-config": "^2.0.0",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.14.2",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.4",
+    "typescript": "^5.4.5"
+  }
+}
